@@ -1,4 +1,4 @@
-package com.neo;
+package com.lan.demo;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -7,11 +7,10 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class HelloApplicationTests {
+public class DemoApplicationTests {
 
-	@Test
-	public void contextLoads() {
-		System.out.println("Hello Spring Boot 2.0!");
-	}
+    @Test
+    public void contextLoads() {
+    }
 
 }
